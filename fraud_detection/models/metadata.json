@@ -1,0 +1,38 @@
+{
+  "model_name": "logistic_regression",
+  "features": [
+    "amt_log",
+    "distance_km",
+    "city_pop_log",
+    "age",
+    "hour",
+    "day_of_week",
+    "category"
+  ],
+  "test_metrics": {
+    "precision": 0.22772277227722773,
+    "recall": 0.8625,
+    "f1": 0.360313315926893,
+    "roc_auc": 0.9666581632653062,
+    "pr_auc": 0.8195173142750748
+  },
+  "all_candidate_metrics": {
+    "logistic_regression": {
+      "precision": 0.22772277227722773,
+      "recall": 0.8625,
+      "f1": 0.360313315926893,
+      "roc_auc": 0.9666581632653062,
+      "pr_auc": 0.8195173142750748
+    },
+    "random_forest": {
+      "precision": 0.7564102564102564,
+      "recall": 0.7375,
+      "f1": 0.7468354430379747,
+      "roc_auc": 0.9722911352040816,
+      "pr_auc": 0.7904102308403985
+    }
+  },
+  "n_train": 16000,
+  "n_test": 4000,
+  "test_fraud_rate": 0.02
+}
