@@ -5,6 +5,7 @@ project: honest evaluation methodology, real feature engineering, a
 saved model artifact instead of retraining on every run, and a Streamlit
 app with per-prediction explainability.
 
+ **[Live Demo](https://fraud-radar-swami.streamlit.app)**
 
 ## Project structure
 
