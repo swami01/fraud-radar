@@ -7,9 +7,9 @@ app with per-prediction explainability.
 
  **[Live Demo](https://fraud-radar-swami.streamlit.app)**
 
- ![Fraud Radar demo](assets/demo1.png)
- ![Fraud Radar demo](assets/demo2.png)
- ![Fraud Radar demo](assets/demo3.png)
+ ![Fraud Radar demo](fraud_detection/assests/demo1.png)
+ ![Fraud Radar demo](fraud_detection/assests/demo2.png)
+ ![Fraud Radar demo](fraud_detection/assests/demo3.png)
 
 ## Project structure
 
