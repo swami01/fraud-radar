@@ -84,8 +84,10 @@ CATEGORY_OPTIONS = [
 
 @st.cache_resource
 def load_artifact():
-    model = joblib.load("models/fraud_model.joblib")
-    with open("models/metadata.json") as f:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+    model = joblib.load(os.path.join(BASE_DIR, "models", "fraud_model.joblib"))
+    with open(os.path.join(BASE_DIR, "models", "metadata.json")) as f:
         metadata = json.load(f)
     return model, metadata
 
